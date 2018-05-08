@@ -7,11 +7,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            int skaitlis = Funkcija1();
+            int d = Funkcija4(10, 20);
             Funkcija2();
             Funkcija2();
             Funkcija2();
-            Console.WriteLine(skaitlis);
+            Funkcija3(5,6);
+            
+
+
+            Console.WriteLine(d);
             Console.ReadLine();
         }
 
@@ -30,6 +34,22 @@ namespace ConsoleApp1
         {
             Console.WriteLine("apaļš ābols bumbierim cep čību");
             Console.WriteLine("divmetrīgā eglē ērglis filmē gliemežu ģimeni");
+
+        }
+
+        static void Funkcija3(int skaitlis1, int skaitlis2)
+        {
+            int c = skaitlis1 + skaitlis2;
+            Console.WriteLine(c);
+
+        }
+
+        static int Funkcija4(int skaitlis1, int skaitlis2)
+        {
+            int d = skaitlis1 + skaitlis2;
+
+            return d;
+            
 
         }
     }
